@@ -19,9 +19,10 @@ import Events from './Events'
 import Interactor from './Interactor'
 import Metadata from './Metadata'
 import NodeInfo from './NodeInfo'
-import TemplateModule from './TemplateModule'
+// import TemplateModule from './TemplateModule'
 import Transfer from './Transfer'
 import Upgrade from './Upgrade'
+import DrunkardsWalk from './DrunkardsWalk'
 
 function Main() {
   const { apiState, apiError, keyringState } = useSubstrateState()
@@ -82,7 +83,7 @@ function Main() {
             <Events />
           </Grid.Row>
           <Grid.Row>
-            <TemplateModule />
+            <DrunkardsWalk />
           </Grid.Row>
         </Grid>
       </Container>
